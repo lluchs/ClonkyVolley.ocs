@@ -112,7 +112,7 @@ global func InitBall(int team)
 
 global func FxCheckTimer(pTarget)
 {
-	for(obj in FindObjects(Find_ID(Clonk)))
+	for(var obj in FindObjects(Find_ID(Clonk)))
 	{
 		if(GetPlayerTeam(obj->GetOwner())==1)if(obj->GetX() > LandscapeWidth()/2-3) { obj->SetPosition(obj->GetX(),obj->GetY()-1); obj->Fling(-5,-2); }
 	 	if(GetPlayerTeam(obj->GetOwner())==2)if(obj->GetX() < LandscapeWidth()/2+3) { obj->SetPosition(obj->GetX(),obj->GetY()-1); obj->Fling(5,-2); }
@@ -136,16 +136,16 @@ func Score(int team)
 	Scoreboard->SetData(team, "score", TeamScore[team - 1]);
 	
 	DoScoreboardShow(1);
-	Schedule(nil, Format("DoScoreboardShow(-1)"), 35 * MIME_ShowBoardTime);
+	Schedule(nil, Format("DoScoreboardShow(-1)"), 35 * Goal_DeathMatch.ShowBoardTime);
 	
 	var dir = (team - 1) * 2 - 1;
 	
 	var rgb = SplitRGBaValue(GetTeamColor(team));
 	
 	var props = {
-		R = rgb[0],
-		G = rgb[1],
-		B = rgb[2],
+		R = rgb.R,
+		G = rgb.G,
+		B = rgb.B,
 		Size = PV_Linear(15, 0),
 		Alpha = PV_Linear(255, 0),
 		BlitMode = GFX_BLIT_Additive,

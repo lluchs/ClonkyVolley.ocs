@@ -70,9 +70,9 @@ func FxIntShieldStart(target, effect)
 	var rgba = SplitRGBaValue(clr);
 
 	effect.props = {
-		R = rgba[0],
-		G = rgba[1],
-		B = rgba[2],
+		R = rgba.R,
+		G = rgba.G,
+		B = rgba.B,
 		Size = PV_Linear(3, 0),
 		Attach = ATTACH_Front|ATTACH_MoveRelative,
 		Alpha = PV_Linear(255, 0)
