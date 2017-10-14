@@ -1,0 +1,21 @@
+[Head]
+Icon=19
+Title=Clonky Volley
+Version=7
+MaxPlayer=10
+
+[Game]
+Mode=Melee
+
+[Player1]
+
+[Player2]
+
+[Player3]
+
+[Player4]
+
+[Landscape]
+VegetationLevel=0
+Sky=Clouds1;Default
+MapZoom=5,0,5,15

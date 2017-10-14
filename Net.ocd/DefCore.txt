@@ -1,0 +1,8 @@
+[DefCore]
+id=Net
+Version=5,2,0,1
+Category=C4D_StaticBack
+Width=8
+Height=140
+Offset=-4,-70
+SolidMask=0,0,8,140

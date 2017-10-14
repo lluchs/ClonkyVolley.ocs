@@ -1,0 +1,9 @@
+ScoreMsg1=Team %s scored! Hail to the %s baby!
+ScoreMsg2=Team %s scored! %s is the man!
+ScoreMsg3=Team %s scored! %s was somehow related to it.
+ScoreMsg4=Team %s scored! %s knows how to handle balls!
+ScoreMsg5=Team %s scored! %s is outta control!
+ScoreMsg6=Team %s scored! All thanks to the sexiest man alive %s!
+ScoreMsg7=Team %s scored! %s decided to kick ass!
+ScoreMsg8=Team %s scored! %s wasn't even using his hands!
+ScoreMsg9=Team %s scored! %s best player EU

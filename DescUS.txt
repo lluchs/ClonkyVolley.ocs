@@ -1,0 +1,4 @@
+Clonky Volley!
+
+A quick game of Blobby Volley. Play the ball to the other side and make use of your ToadJump spell (left click)!
+The game ends if one team reaches 20 points and has at least 2 points more than the other one.
